@@ -42,7 +42,7 @@ img {max-width:100%; height:auto}
     else {
       echo $tail;
     }
-    if ($tail == "jpg" || $tail == "png" ) {
+    if ($tail == "jpg" || $tail == "png" || $tail == "jpeg" || $tail == "gif" || $tail == "bmp" ) {
       echo '<img src="image.php?img='.$full.'" />';
     }
   }
